@@ -6,6 +6,9 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
   } 
+  body{
+    background-color: black;
+  }
 
   button{
     cursor: pointer;
@@ -23,3 +26,13 @@ export const GlobalStyle = createGlobalStyle`
 
   
 `;
+
+
+export const ColorsTheme={
+  colors:{
+    white: '#ffffff',
+    white20: 'rgba(217,217,217,0.20)',
+    red: '#f55859',
+    blue:'#0f81ec',
+  }
+}
