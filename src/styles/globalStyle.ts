@@ -32,6 +32,7 @@ export const ColorsTheme={
   colors:{
     white: '#ffffff',
     white20: 'rgba(217,217,217,0.20)',
+    white50: 'rgba(255,255,255,0.50)',
     red: '#f55859',
     blue:'#0f81ec',
   }
