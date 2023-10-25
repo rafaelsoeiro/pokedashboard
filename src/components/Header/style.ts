@@ -15,6 +15,13 @@ export const StyledHeader = styled.header`
       height: 50px;
       object-fit: cover;
     }
+    button {
+      color: ${({ theme }) => theme.colors.white};
+      transition: all ease-in-out 400ms;
+      &:hover {
+        color: ${({ theme }) => theme.colors.blue};
+      }
+    }
   }
   @media (max-width: 600px) {
     flex-direction: column-reverse;
@@ -45,6 +52,13 @@ export const StyledHeaderForm = styled.form`
     color: ${({ theme }) => theme.colors.white};
     ::placeholder {
       ${({ theme }) => theme.colors.white50};
+    }
+  }
+  button {
+    color: ${({ theme }) => theme.colors.white50};
+    transition: 0.4s;
+    &:hover {
+      color: ${({ theme }) => theme.colors.white};
     }
   }
   @media (max-width: 600px) {

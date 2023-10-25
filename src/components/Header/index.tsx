@@ -1,20 +1,20 @@
 import React from "react";
 import { MdNotifications, MdSearch } from "react-icons/md";
 import Avater from "../../assets/Avatar1.png";
-import { StyledHeader,StyledHeaderForm } from "./style";
+import { StyledHeader, StyledHeaderForm } from "./style";
 
 const Header = () => {
   return (
     <StyledHeader>
       <StyledHeaderForm action="">
         <button type="submit">
-          <MdSearch size={30} color="rgba(255,255,255,0.5)" />
+          <MdSearch size={30} />
         </button>
         <input type="text" name="search" id="search" placeholder="Buscar..." />
       </StyledHeaderForm>
       <div className="userMenu">
         <button>
-          <MdNotifications size={30} color="rgba(255,255,255,0.5)" />
+          <MdNotifications size={30} />
         </button>
         <img src={Avater} alt="username" />
       </div>
